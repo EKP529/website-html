@@ -1,4 +1,31 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lao Sangam MN", Helvetica, sans-serif;
   box-sizing: border-box;
+}
+body.myBody {
+  text-align: center;
+}
+div.centeredLists {
+  text-align: center;
+}
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
+hr {
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  width: 500px;
+}
+
+hr:after {
+  background: #fff;
+  content: '§';
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
 }
